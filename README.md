@@ -1,44 +1,43 @@
-# Python Phase3-Code-Challenge-1
-![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![](https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white)
+# phase-3-updated-code-challenge
+## Challenge 1: Converting 12-hour time to 24-hour time
 
-## Challenge 1 - Time Converter:
-The program works to Convert a 12-hour time like "8:30 am" or "8:30 pm" to 24-hour time (like "0830" or "2030")!
-It defines a function, which will be given an hour (always in the range of 1 to 12, inclusive), 
-a minute (always in the range of 0 to 59, inclusive), and a period (either "am" or "pm") as input.
-The program returns a four-digit string that encodes that time in 24-hour time.
+This challenge involves creating a function that converts it into 24-hour time format. 
+The function takes an hour, minute, and period (am/pm) as input and returns the equivalent time in 24-hour format.
 
-## Challenge 2 - Two Positive Numbers:
-This program defines a function that checks whether exactly two out of three given numbers are positive. 
-It iterates through the provided numbers and counts the positive ones. 
-If exactly two numbers are positive, the function returns True; otherwise, it returns False. 
-The code demonstrates the function by accepting 3 user input numbers and printing the result.
+**Solution:** 
+The`convert_to_24_hour()` function in **Toyproblems1.py** implements this conversion.
 
-## Challenge 3 - Consonant Value:
-This is a program that defines a function that takes a string and removes the vowels (a, e, i, o, u) 
-and then splits the string to create groups of consonant sequences. 
-It calculates the value of each group by summing the position of each character in the alphabet plus one. 
-The function returns the maximum value among these calculated values for each group of consonants. 
-The code demonstrates the function by accepting a string into the function and printing the result.
+To run the solution:
+```bash
+python Toyproblems1.py
 
 
+**Challenge 2:**
+
+*Two numbers are positive
+
+*This challenge requires implementing a function that takes three integers as input and returns:
+True if exactly two of them are positive numbers and False otherwise.
+
+             **Solution:**
+ The exactly_two_positive() function in Toyproblems2.py implements this logic.
+
+To run the solution:
+
+bash
+
+python Toyproblems2.py
 
 
+Challenge 3: Consonant value
 
-## Project Setup
-1. Clone the repository
-```
-git clone git@github.com:keowen375/python-code-challlenge-1.git
-```
+In this challenge,you are to find the highest value of consonant substrings in a given lowercase string. Consonants are any letters of the alphabet except "aeiou", and each consonant is assigned a value from 'a' to 'z'.
 
-2. Install required dependencies
-```
-cd into the project director
-```
+Solution: The solve() function in Toyproblems3.py solves this problem by calculating the value of each consonant substring and finding the maximum value.
 
-3. Authors & License
-Authored by:
+To run the solution:
 
-Michael Owen
+bash
 
-Licensed under the MIT License - see the LICENSE file for details.
+python Toyproblems3.py
+
